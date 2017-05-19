@@ -1,33 +1,32 @@
-
-
 /**
  * ========================================
  * GENERAL STYLES
  * ========================================
  */
 
- * {
-   opacity: 0.9;
- }
+* {
+  opacity: 0.9;
+}
 
- html {
-   font-family: Helvetica, sans-serif;
-   font-size: 22px;
-   color: SeaShell;
-   background-color: black;
-   text-align: center;
- }
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  text-align: center;
+}
 
- body {
-   margin: 0;
- }
+body {
+  margin: 0;
+}
 
- h2, h3, h4 {
-     margin: 0px;
-     padding: 10px;
- }
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
 
- /**
+
+/**
   * ========================================
   * HEADER STYLES
   * ========================================
@@ -56,7 +55,6 @@ header {
 
 nav {
   display: flex;
-
 }
 
 nav span {
@@ -76,7 +74,6 @@ nav span {
   overflow: scroll;
   margin-top: 69px;
   width: 1200px;
-
   opacity: 0.9;
   flex-direction: column;
   margin: 0 auto;
@@ -97,9 +94,7 @@ nav span {
   background-color: black;
   font-weight: bold;
   opacity: 0.9;
-
 }
-
 
 #featured {
   width: 1000px;
@@ -123,7 +118,6 @@ nav span {
   flex-direction: column;
   margin: 5px;
   padding: 5px;
-
 }
 
 .product span {
@@ -139,7 +133,6 @@ nav span {
   height: 500px;
   opacity: 0.9;
   background-image: url("../images/img-locations-background.jpg");
-
 }
 
 .stores {
@@ -147,10 +140,7 @@ nav span {
   align-items: center;
   align-content: center;
   justify-content: center;
-
 }
-
-
 
 #store {
   display: flex;
@@ -163,7 +153,6 @@ nav span {
   background-color: black;
   opacity: 1.0;
   margin: 15px 20px;
-
 }
 
 .contact-info {
